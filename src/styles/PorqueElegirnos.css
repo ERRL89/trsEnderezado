@@ -1,0 +1,75 @@
+.containerCards {
+  margin-top: 100px !important;
+  position: relative;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  z-index: 0;
+}
+.containerCards .containerCard {
+  position: relative;
+  height: 240px !important;
+  width: 350px !important;
+  border: 1px solid #ffffff;
+  padding: 5px 10px !important;
+  background-color: white !important;
+  box-shadow: 7px 7px 10px rgba(7, 29, 61, 0.1), -2px -2px 10px rgba(7, 29, 61, 0.1);
+  transition: 0.3s ease-in-out;
+  border: 1px solid rgba(255, 0, 0, 0.15);
+}
+.containerCards .containerCard .imgCard {
+  width: 75px;
+  margin-top: -50px;
+}
+.containerCards .containerCard .containerCardText {
+  margin-top: 25px;
+}
+.containerCards .containerCard .containerCardText .firstText {
+  font-size: 1.3em;
+  color: red;
+}
+.containerCards .containerCard .containerCardText .textIdentificador {
+  font-size: 0.85em;
+}
+
+@media screen and (max-width: 480px) {
+  .containerCards {
+    margin-top: 100px !important;
+    position: relative;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    z-index: 0;
+  }
+  .containerCards .containerCard {
+    position: relative;
+    height: 230px !important;
+    width: 350px !important;
+    border: 1px solid #ffffff;
+    padding: 5px 10px !important;
+    background-color: white !important;
+    box-shadow: 7px 7px 10px rgba(7, 29, 61, 0.1), -2px -2px 10px rgba(7, 29, 61, 0.1);
+    transition: 0.3s ease-in-out;
+    border: 1px solid rgba(255, 0, 0, 0.15);
+  }
+  .containerCards .containerCard .imgCard {
+    width: 75px;
+    margin-top: -50px;
+  }
+  .containerCards .containerCard .containerCardText {
+    margin-top: 25px;
+  }
+  .containerCards .containerCard .containerCardText .firstText {
+    font-size: 1.35em;
+    color: red;
+  }
+  .containerCards .containerCard .containerCardText .textIdentificador {
+    font-size: 0.9em;
+  }
+}/*# sourceMappingURL=PorqueElegirnos.css.map */

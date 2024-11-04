@@ -1,0 +1,205 @@
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 30px;
+}
+.carouselContainer .carouselText {
+  position: relative;
+  width: 50%;
+}
+.carouselContainer .carouselText .title1 {
+  font-size: 2em;
+}
+.carouselContainer .carouselText .title2 {
+  font-size: 1.25em;
+}
+.carouselContainer .carouselText .firstText {
+  font-size: 1em;
+}
+.carouselContainer .carouselText .containerDatosMain {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.carouselContainer .carouselText .containerDatosMain .containerDatos {
+  position: relative;
+  width: 22.5%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.carouselContainer .carouselText .containerDatosMain .containerDatos .contadorNum {
+  font-size: 2em;
+  color: red;
+}
+.carouselContainer .carouselText .containerDatosMain .containerDatos .contadorNumText {
+  font-size: 1.4em;
+  margin-top: -25px;
+}
+.carouselContainer .carouselText .containerBtn1 .btnCarousel {
+  background-color: rgb(33, 37, 41);
+  color: rgb(252, 0, 0);
+  width: 65%;
+  border: 1px solid rgba(255, 0, 0, 0.1);
+  box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.15);
+  letter-spacing: 1px;
+}
+.carouselContainer .carouselText .containerBtn1 .btnCarousel:hover {
+  background-color: rgb(62, 65, 68);
+  color: white;
+  box-shadow: 3px 3px 5px rgba(126, 126, 126, 0);
+}
+.carouselContainer .carouselImages {
+  position: relative;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .carouselContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+  }
+  .carouselContainer .carouselText {
+    text-align: center;
+    position: relative;
+    width: 50%;
+  }
+  .carouselContainer .carouselText .title1 {
+    font-size: 2em;
+  }
+  .carouselContainer .carouselText .title2 {
+    font-size: 1.25em;
+    margin-top: 10px;
+  }
+  .carouselContainer .carouselText .firstText {
+    font-size: 1em;
+  }
+  .carouselContainer .carouselText .containerDatosMain {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carouselContainer .carouselText .containerDatosMain .containerDatos {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .carouselContainer .carouselText .containerDatosMain .containerDatos .contadorNum {
+    font-size: 3em;
+    color: red;
+  }
+  .carouselContainer .carouselText .containerDatosMain .containerDatos .contadorNumText {
+    font-size: 1.4em;
+    margin-top: -25px;
+  }
+  .carouselContainer .carouselText .containerBtn1 .btnCarousel {
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    width: 100%;
+    border: 1px solid rgba(255, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.15);
+    letter-spacing: 1px;
+  }
+  .carouselContainer .carouselText .containerBtn1 .btnCarousel:hover {
+    background-color: rgb(62, 65, 68);
+    color: white;
+    box-shadow: 3px 3px 5px rgba(126, 126, 126, 0);
+  }
+  .carouselContainer .carouselImages {
+    position: relative;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .carouselContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .carouselContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin-top: 20px;
+  }
+  .carouselContainer .carouselText {
+    text-align: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+  .carouselContainer .carouselText .title1 {
+    font-size: 2em;
+  }
+  .carouselContainer .carouselText .title2 {
+    font-size: 1.25em;
+    margin-top: 10px;
+  }
+  .carouselContainer .carouselText .firstText {
+    font-size: 1em;
+  }
+  .carouselContainer .carouselText .containerDatosMain {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carouselContainer .carouselText .containerDatosMain .containerDatos {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .carouselContainer .carouselText .containerDatosMain .containerDatos .contadorNum {
+    font-size: 3em;
+    color: red;
+  }
+  .carouselContainer .carouselText .containerDatosMain .containerDatos .contadorNumText {
+    font-size: 1.4em;
+    margin-top: -25px;
+  }
+  .carouselContainer .carouselText .containerBtn1 .btnCarousel {
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    width: 100%;
+    border: 1px solid rgba(255, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.15);
+    letter-spacing: 1px;
+  }
+  .carouselContainer .carouselText .containerBtn1 .btnCarousel:hover {
+    background-color: rgb(62, 65, 68);
+    color: white;
+    box-shadow: 3px 3px 5px rgba(126, 126, 126, 0);
+  }
+  .carouselContainer .carouselImages {
+    position: relative;
+    width: 100%;
+  }
+}/*# sourceMappingURL=Carousel.css.map */

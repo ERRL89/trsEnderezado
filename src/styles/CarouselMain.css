@@ -1,0 +1,11 @@
+.imgFondoContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 2000;
+}
+.imgFondoContainer img {
+  width: 100%;
+}/*# sourceMappingURL=CarouselMain.css.map */

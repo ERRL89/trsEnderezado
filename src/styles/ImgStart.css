@@ -1,0 +1,11 @@
+.imgLogoContainer {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.imgLogoContainer img {
+  width: 80%;
+}/*# sourceMappingURL=ImgStart.css.map */

@@ -1,0 +1,66 @@
+.imgLogo {
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+}
+
+.navBarCustom {
+  height: 65px;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 1.075em;
+  font-weight: 400;
+  margin-right: 5px;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+
+.dropdown-item {
+  color: rgb(255, 255, 255);
+  font-size: 1.075em;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+}
+.dropdown-item:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+
+.btnContactanos {
+  border: 1px solid rgb(255, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.075em !important;
+  font-weight: 400 !important;
+  transition: 0.3s ease-in-out !important;
+}
+.btnContactanos:hover {
+  background-color: red !important;
+  color: white !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+@media (max-width: 1000px) {
+  .navBarCustom {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .navBarCustom {
+    height: auto;
+  }
+  .dropdown-item {
+    color: rgb(255, 255, 255);
+    font-size: 0.85em;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+  }
+  .dropdown-item:hover {
+    color: rgb(255, 0, 0);
+    transition: 0.3s ease-in-out;
+  }
+}/*# sourceMappingURL=Header.css.map */
